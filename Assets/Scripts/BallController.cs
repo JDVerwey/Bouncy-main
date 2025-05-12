@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
+    public static BallController Instance;
     public float torqueForce = 10f;   
     public float jumpForce = 10f;     
     public float airControlMultiplier = 0.2f; 

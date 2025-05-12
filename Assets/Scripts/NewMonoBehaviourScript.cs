@@ -3,9 +3,9 @@ using UnityEngine;
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     //Global variables
-    float maxSize = 10;
-    float minSize = 0.1f;
-    bool sizing = true; 
+    //float maxSize = 10;
+    //float minSize = 0.1f;
+    //bool sizing = true; 
 
 
     /// <summary>
@@ -21,10 +21,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
         {
         //gameObject.transform.Rotate(new Vector3(-1, 0, 0));
         
-        if (sizing == true)
-        {
-            gameObject.transform.localScale = (new Vector3(2, 2, 2));
-        }
+        //if (sizing == true)
+        //{
+        //    gameObject.transform.localScale = (new Vector3(2, 2, 2));
+        //}
         
     }
     
